@@ -86,13 +86,13 @@ function setup()
 
    //btn 2
    button2 = createImg('cut_btn.png');
-   button2.position(330,35);
+   button2.position(canW - 170,35);
    button2.size(60,60);
    button2.mouseClicked(drop2);
  
    //btn3
    button3 = createImg('cut_btn.png');
-   button3.position(360,200);
+   button3.position(canW - 140,200);
    button3.size(60,60);
    button3.mouseClicked(drop3);
 
